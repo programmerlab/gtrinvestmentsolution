@@ -7,179 +7,264 @@
 @stop
 @section('content')
 @include('partials/menu') 
-@include('partials/titlebar')
-
-<section id="about" class="padding">
-  <div class="container aboutus">
-    <div class="row">
-      <div class="col-md-7 wow fadeInLeft animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInLeft;">
-       <h2 class="heading heading_space"><span>Welcome </span>to Research Infotech <span class="divider-left"></span></h2>
-       <p class="bottom25">
-          
-
-<div style='border:none;border-bottom:solid #1ABC9C 1.5pt;padding:0in 0in 8.0pt 0in'>
-
-<p class=MsoNormal style='line-height:normal;border:none;padding:0in'><b><span
-style='font-size:15.0pt;font-family:"Arial",sans-serif;color:#333333;
-text-transform:uppercase;letter-spacing:.75pt'>Research&nbsp;</span></b><b><span
-style='font-size:15.0pt;font-family:"Arial",sans-serif;color:#1ABC9C;
-text-transform:uppercase;letter-spacing:.75pt'>infotech</span></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;text-align:justify;text-justify:
-inter-ideograph;line-height:normal;background:white'><span style='font-size:
-11.5pt;font-family:"Arial",sans-serif;color:#555555'>Research Infotech– Top
-Investment Advisor: having the sole motto as ‘Sign of Trust ’ , and is meant to
-be translated into an proposition that is led by capitalism and creativity,
-sheltered by creditable and validate outcome. Research clients progressively
-stepping up with the smart recommendation provided by one and only </span><span
-style='font-size:11.5pt;font-family:"Arial",sans-serif;color:#5B5B5B;
-background:white'>Research Infotech</span><span style='font-size:11.5pt;
-font-family:"Arial",sans-serif;color:#555555'>  team' - giving them consistent
-idea into investments, that is soak up as profit and fame into the target
-market.</span></p>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;line-height:normal;background:
-white'><b><span style='font-size:18.0pt;font-family:"Arial",sans-serif;
-color:#444444'>SEBI Registered Investment Adviser </span></b></p>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;text-align:justify;text-justify:
-inter-ideograph;line-height:normal;background:white'><span style='font-size:
-11.5pt;font-family:"Arial",sans-serif;color:#555555'>Research Infotech is a
-SEBI (Security and Exchange Board of India)  registered  advisory firm, Sebi
-registration no  </span><b><span style='font-size:10.5pt;font-family:"Open Sans",serif;
-color:#5B5B5B;background:white'>INA000003726</span></b><span style='font-size:
-11.5pt;font-family:"Arial",sans-serif;color:#555555'> which follow all the
-norms made by SEBI for the investors protection. This difference from others
-make us more disciplined, experienced, skillful and quantitative to make you
-desired profit from financial market by providing recommendation on suitable
-segment as per your risk bearing capacity. Every individual’s reason to invest
-and trade on their own fundamentals is unique. No matter the skill level, we
-provide the complete investment plans over investment products for traders and
-investors. As a well managed and famous for fast services provider organization
-in the advisory industry, we are proud of the trusted clientele who earned
-great success in the market by stocking and investment plans governed by our
-experts. Research Infotech  is a SEBI registered commodity tips provider, we
-have experienced bunch of people as a team that provide tips that will help you
-to make a decision weather you can sale your stock or hold it for future in
-commodity Market.</span></p>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;text-align:justify;text-justify:
-inter-ideograph;line-height:normal;background:white'><b><span style='font-size:
-11.5pt;font-family:"Arial",sans-serif;color:#5B5B5B;background:white'>Research
-Infotech Advisory Service is a team of expert analyst with vast experience in
-commodity market research. We provide recommendations commodities including
-bullion, agri and metals traded in MCX and NCDEX</span></b></p>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;text-align:justify;text-justify:
-inter-ideograph;line-height:normal;background:white'><span style='font-size:
-11.5pt;font-family:"Arial",sans-serif;color:#555555'>Research Infotech feels
-proud for the role we have played in enabling and empowering self-directed and
-non directed traders and investors for last several years. Since years, our
-enduring individuals have put their trust in us to score incredible success
-rewards and personalized service that supports their needs and helps them
-define their own financial success.We have best SEBI investment advisor which
-gives you profitable call , so that you can earn much better than from other
-advisers.</span></p>
-
-<div style='border:none;border-bottom:solid #1ABC9C 1.5pt;padding:0in 0in 8.0pt 0in'>
-
-<p class=MsoNormal style='line-height:normal;border:none;padding:0in'><b><span
-style='font-size:15.0pt;font-family:"Arial",sans-serif;color:#333333;
-text-transform:uppercase;letter-spacing:.75pt'>research infotech&nbsp;</span></b><b><span
-style='font-size:15.0pt;font-family:"Arial",sans-serif;color:#1ABC9C;
-text-transform:uppercase;letter-spacing:.75pt'>VIEWPOINT</span></b><b><span
-style='font-size:15.0pt;font-family:"Arial",sans-serif;color:#333333;
-text-transform:uppercase;letter-spacing:.75pt'>.</span></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;line-height:normal;background:
-white'><span style='font-size:11.5pt;font-family:"Arial",sans-serif;color:#555555'>Research
-Infotech is SEBI registered company in India. Since last few years we are
-constantly analyzing the market and what we cropped out is a bitter truth that
-may get surprised you hard somewhere. Most of the investors invest huge
-revenues from their livelihood, with a sole view of earning profits from the
-investment. But, situation becomes worse when you invest as a No-Voice
-investor, which lets you into a down graph. We are SEBI registered tips
-provider and provides you a tips that will surely provide you a profit with
-proper target and </span></p>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;line-height:normal;background:
-white'><span style='font-size:11.5pt;font-family:"Arial",sans-serif;color:#555555'>&nbsp;</span></p>
-
-<div style='border:none;border-bottom:solid #1ABC9C 1.5pt;padding:0in 0in 8.0pt 0in'>
-
-<p class=MsoNormal style='line-height:normal;border:none;padding:0in'><b><span
-style='font-size:15.0pt;font-family:"Arial",sans-serif;color:#333333;
-text-transform:uppercase;letter-spacing:.75pt'>PERCEPTION &amp; VALUES .</span></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;line-height:normal;background:
-white'><span style='font-size:11.5pt;font-family:"Arial",sans-serif;color:#555555'>Research
-Infotech, is SEBI registered investment advisory,in which top experts forecast
-market by-product smartly, keeping risk-factors into their mind with a view to
-make computation and earn profit in the pocket of investing customer Research
-Infotech  with SEBI registered investment advisors is one of the most
-favourable workplace, due to its following singularities:</span></p>
-
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:20.25pt;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:#555555'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
-color:#555555'>Sharp Judgement</span></p>
-
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:20.25pt;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:#555555'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
-color:#555555'>Acute perception</span></p>
-
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:20.25pt;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:#555555'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
-color:#555555'>Concurrent connection with multiple clients</span></p>
-
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:20.25pt;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:#555555'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
-color:#555555'>Availability</span></p>
-
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:20.25pt;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:#555555'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
-color:#555555'>Leadership</span></p>
-
-<p class=MsoNormal style='margin-bottom:22.5pt;line-height:normal;background:
-white'><span style='font-size:11.5pt;font-family:"Arial",sans-serif;color:#555555'>We
-believe on maintain healthy and long-term relation with our clients on the
-basis of client satisfaction.</span></p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-
-       </p>
-      </div>
-      <div class="col-md-5 wow fadeInRight animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
-        <div class="image"> 
-         <img src="{{ asset('storage/assets/images/news3.jpg')}}" alt="Xwin">
+@include('partials/titlebar') 
+  
+  <section class="section-aboutus wrap-blance blancejqurey bg-section2 clearfix">
+        <div id="blance1" class="featured-aboutus float-left">
+            <img src="images/about.jpg" alt="image">
         </div>
-        <br>
-        <div class="image"> 
-         <img src="{{ asset('storage/assets/images/news2.jpg')}}" alt="Xwin">
+        <div id="blance2" class="info-aboutus float-left" style="height: 473px;">
+            <div class="title-section style2 left">
+                <h1 class="title"><span>We advise</span> you, you call the right decision!</h1>
+                <div class="sub-title">
+                    Over The Last 30 Years, We’ve Been In This Corporate Consulting Business, We Were Able To Help Hundreds Of Top-Flight Companies And Thousands Of SMBs To Call The Right Decisions…
+                </div>
+                <div class="sub-title">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                </div>
+            </div>
+            <div class="about-counter">
+                <div class="flat-counter float-left color-another text-center">                            
+                    <div class="content-counter float-left">
+                        <div class="icon-count">
+                            <i class="ti-headphone-alt"></i>
+                        </div>
+                        <div class="numb-count" data-to="120" data-speed="2000" data-waypoint-active="yes">120</div>
+                        <div class="name-count">Consultants</div>
+                    </div>
+                </div><!-- /.flat-counter -->
+                <div class="flat-counter color-another float-left text-center">                            
+                    <div class="content-counter float-left">
+                        <div class="icon-count">
+                            <i class="ti-bookmark-alt"></i>
+                        </div>
+                        <div class="numb-count" data-to="50" data-speed="2000" data-waypoint-active="yes">50</div>
+                        <div class="name-count">Awards Winning</div>
+                    </div>
+                </div><!-- /.flat-counter -->
+                <div class="flat-counter color-another float-left text-center">                            
+                    <div class="content-counter">
+                        <div class="icon-count">
+                            <i class="ti-heart-broken"></i>
+                        </div>
+                        <div class="numb-count" data-to="240" data-speed="2000" data-waypoint-active="yes">240</div>
+                        <div class="name-count">Satisfied Customers</div>
+                    </div>
+                </div><!-- /.flat-counter -->
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+
+  <section class="flat-row  page-teammember">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-section style3 text-center">
+                        <h1 class="title">Meet Our Team</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/1.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Shaya Hill</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/2.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Keith King</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/3.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Anthony Jones</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/4.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Jackson Nelson</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/5.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Jonh Nash</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/6.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Rebeca Masew</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/7.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Bruce Hill</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="flat-team">                            
+                        <div class="avatar">             
+                            <img src="images/team/8.jpg" alt="image">
+                        </div>                        
+                        <div class="content text-center">
+                            <h5 class="name">Daisy King</h5>
+                            <p class="position">Tax Advice</p>
+                            <ul class="social-links style2 team">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="flat-row padingbotom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 history-text">
+                    <div class="title-section style3 left">
+                        <h1 class="title">Our History</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consec-tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vo-luptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat.-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#" class="flat-button style2">Read more</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main-history">
+                        <div class="wrap-step clearfix">
+                            <div class=" data-step float-left">
+                                <span class="year">1990</span>
+                            </div>
+                            <div class=" info-step float-left">
+                                <h5>Entrepreneurship Hall of Fame</h5>
+                                <p>nother family member reinforced the younger man’s inter-est in the field. Joe’s uncle was an architect and a general contractor and encouraged Joe.</p>
+                            </div>
+                        </div>
+                        <div class="wrap-step clearfix">
+                            <div class=" data-step float-left">
+                                <span class="year">2010</span>
+                            </div>
+                            <div class=" info-step float-left">
+                                <h5>Entrepreneurship Hall of Fame</h5>
+                                <p>nother family member reinforced the younger man’s inter-est in the field. Joe’s uncle was an architect and a general contractor and encouraged Joe.</p>
+                            </div>
+                        </div>
+                        <div class="wrap-step clearfix">
+                            <div class=" data-step float-left">
+                                <span class="year">2015</span>
+                            </div>
+                            <div class=" info-step float-left">
+                                <h5>Entrepreneurship Hall of Fame</h5>
+                                <p>nother family member reinforced the younger man’s inter-est in the field. Joe’s uncle was an architect and a general contractor and encouraged Joe.</p>
+                            </div>
+                        </div>
+                        <div class="wrap-step clearfix">
+                            <div class=" data-step float-left">
+                                <span class="year">2017</span>
+                            </div>
+                            <div class=" info-step float-left">
+                                <h5>Entrepreneurship Hall of Fame</h5>
+                                <p>nother family member reinforced the younger man’s inter-est in the field. Joe’s uncle was an architect and a general contractor and encouraged Joe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
 @stop

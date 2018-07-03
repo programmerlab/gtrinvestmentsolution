@@ -1,98 +1,256 @@
-<header>
-  <nav class="navbar navbar-default navbar-fixed white no-background bootsnav pushy">
-    <div class="container"> 
-       <div id="menu_bars" class="right">
-        <span class="t1"></span>
-        <span class="t2"></span>
-        <span class="t3"></span>
-      </div>
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-          <i class="fa fa-bars"></i>
-        </button>
-        <a class="navbar-brand" href="{{url('/')}}"><img src="{{ asset('storage/images/logo-white.png')}}" alt="logo" class="logo logo-display">
-        <img src="{{asset('storage/images/logo.png')}}" class="logo logo-scrolled" alt="">
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-menu">
-        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOut">
-          <li>
-            <a href="{{url('/')}}">Home</a>
-            
-          </li>
-          <li>
-            <a href="{{url('about')}}">About</a>
-            
-          </li>
-          <li>
-            <a href="{{url('services')}}">Services</a>
-            
-        </li>
-        <li>
-            <a href="{{url('payment')}}">Payment</a>
-        </li>
-        <li><a href="{{url('pricing')}}">Pricing</a></li>
-        <li><a href="{{url('free-trial')}}">Free Trial</a></li>
-        <li><a href="{{url('life-at-research-infotech')}}">Life@rch</a></li>
-        <li class="dropdown"><a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">More</a>
-            <ul class="dropdown-menu animated fadeOut" style="display: none; opacity: 1;">
+ <!-- Boxed -->
+
+    <div class="boxed">
+
+
+
+    <div class="top">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-sm-6 reponsive-onehalf">                      
+
+                    <p class="info-text">Welcome to Financial Services Consultant!</p>
+
+                </div><!-- /.col-md-6 -->       
+
+                <div class="col-lg-6 col-sm-6 reponsive-onehalf">
+
+                    <div class="wrap-top">
+
+                        <ul class="flat-top social-links">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                            <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+
+                        </ul>
+
+                        <div class="flat-top flat-language">                        
+
+                            <ul class="unstyled">
+
+                                <li class="current"><a href="#">English</a>
+ 
+                                 </li>
+
+                            </ul>
+
+                       </div> 
+
+                    </div>
+
+                </div>        
+
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+
+    </div><!-- /.top -->
+
+
+
+    <div class="flat-header-wrap">
+
+        <!-- Header -->            
+
+        <div class="header widget-header clearfix">
+
+            <div class="container">
+
+                <div class="header-wrap clearfix">
+
+                    <div class="row"> 
+
+                        <div class="col-lg-3">
+
+                            <div id="logo" class="logo">
+
+                                <a href="index.html" rel="home">
+
+                                    <img src="images/logo1.png" alt="image">
+
+                                </a>
+
+                            </div><!-- /.logo -->
+
+                            
+
+                        </div>
+
+                        <div class="col-lg-9">
+
+                            <div class="wrap-widget-header clearfix">
+
+                                <aside  class="widget widget-info">
+
+                                    <div class="btn-click">
+
+                                        <a href="#" class="flat-button">FREE TRIAL</a>
+
+                                    </div>
+
+                                </aside>
+
+                                <aside class="widget widget-info">          
+
+                                    <div class="textwidget clearfix">
+
+                                        <div class="info-icon">
+
+                                            <i class="fa fa-map-marker"></i>
+
+                                        </div>
+
+                                        <div class="info-text">
+
+                                            <h6>Plot No 228, Ida Sch </h6>
+
+                                            <p> No. 54 PU-4 Indore M.P</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </aside>
+
+                                <aside class="widget widget-info">          
+
+                                    <div class="textwidget clearfix">
+
+                                        <div class="info-icon">
+
+                                            <i class="fa fa-phone"></i>
+
+                                        </div>
+
+                                        <div class="info-text">
+
+                                            <h6>+91 812-0694-466</h6>
+
+                                            <p>info@gtrinvestmentsolution.com</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </aside>               
+
+                            </div>
+
+                        </div>   
+
+                    </div><!-- /.row -->                   
+
+                </div><!-- /.header-wrap -->                 
+
                 
-            <li><a href="{{url('contact')}}">Contact</a></li>
-              <li><a href="{{url('faq')}}"> FAQ </a></li>
-              <li><a href="{{url('career')}}"> Career </a></li>
-              <li><a href="{{url('blog')}}"> Blog </a></li>
-              <li><a href="{{url('kyc')}}"> KYC </a></li>
-              <li><a href="{{url('risk-profiling')}}"> Risk Profiling </a></li>
-              @foreach($pageMenu as $val)
-                <li><a href="{!! url('page/'.str_slug($val->title))!!}"><i class="fa fa-right"></i>{!! ucfirst($val->title)!!}</a></li>
-               @endforeach
 
-            </ul>
-          </li>      
-        </ul>
-      </div>
+            </div>
+
+        </div><!-- /.header -->
+
+
+
+        <header id="header" class="header header-classic header-style1">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="flat-wrap-header">
+
+                            <div class="nav-wrap clearfix">        
+
+                                <nav id="mainnav" class="mainnav">
+
+                                    <ul class="menu"> 
+
+                                        <li class="active">
+
+                                            <a href="{{url('/')}}">Home</a>
+
+                                        </li>
+
+                                        <li><a href="{{url('about')}}">About Us</a></li>
+
+                                        <li><a href="{{url('services')}}">Services</a>
+
+                                        </li>
+
+                                        <li>
+
+                                            <a href="{{url('pricing')}}">Pricing</a>
+
+                                          
+                                        </li>
+
+                                        <li><a href="{{url('blog')}}">Blogs</a>
+
+                                         
+                                        </li>
+
+
+                                        <li><a href="{{url('contact')}}">Contact</a>
+
+                                            
+                                        </li>                       
+
+                                    </ul><!-- /.menu -->
+
+                                </nav><!-- /.mainnav -->  
+
+                                <div class="top-search">                        
+
+                                    <form action="#" id="searchform-all" method="get">
+
+                                        <div>
+
+                                            <input type="text" id="input-search" class="sss" placeholder="Search...">
+
+                                            <input type="submit" id="searchsubmit">
+
+                                        </div>
+
+                                    </form>
+
+                                </div>
+
+                                <ul class="menu menu-extra">
+
+                                    <li id="s" class="show-search">
+
+                                        <a href="#search" class="flat-search"><i class="fa fa-search"></i></a>
+
+                                    </li>
+
+                                   
+                                </ul> 
+
+                                <div class="btn-menu">
+
+                                    <span></span>
+
+                                </div><!-- //mobile menu button --> 
+
+                            </div><!-- /.nav-wrap -->
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
     </div>
-    <div class="sidebar_menu">
-        <nav class="pushmenu pushmenu-right">
-          <a class="push-logo" href="{{url('/')}}"><img src="{{asset('storage/assets/images/logo.png')}}" alt="logo"></a>
-          <ul class="push_nav centered">
-            <li>
-            <a href="{{url('/')}}">Home</a>
-            
-          </li> 
-           <li>
-            <a href="{{url('about')}}">About</a>
-            
-          </li>
-          <li>
-             <a href="{{url('services')}}">Services</a> 
-          </li>
-          <li>
-            <a href="{{url('payment')}}">Payment</a>
-          </li>
-          <li><a href="{{url('pricing')}}">Pricing</a></li> 
-          <li><a href="{{url('contact')}}">Contact</a></li>
-           <li><a href="{{route('tNc')}}"> T&C </a></li>
-     
-            <li><a href="{{url('faq')}}"> FAQ </a></li>
-            <li><a href="{{url('career')}}"> Career </a></li>
-            <li><a href="{{url('blog')}}"> Blog </a></li>
-            <li><a href="{{url('kyc')}}"> KYC </a></li>
-            <li><a href="{{url('risk-profiling')}}"> Risk Profiling </a></li>
-
-
-
-              @foreach($pageMenu as $val)
-                <li><a href="{!! url('page/'.str_slug($val->title))!!}"><i class="fa fa-right"></i>{!! ucfirst($val->title)!!}</a></li>
-               @endforeach
-          </ul>
-          <div class="clearfix"></div>
-          <ul class="social_icon black top25 bottom20">
-          <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#." class="twitter"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#." class="instagram"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-        </nav>
-      </div>   
-  </nav>
-</header>

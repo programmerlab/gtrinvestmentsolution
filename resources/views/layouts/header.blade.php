@@ -1,62 +1,58 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title> Research Infotech | {{ $tagLine or ''}} </title>
-	{!! $meta1 or ''!!}
-	{!!$meta2 or ''!!}
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/bootstrap.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/Xwin-icons.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/animate.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/owl.carousel.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/owl.transitions.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/cubeportfolio.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/settings.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/bootsnav.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/style.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/font-awesome.min.css')}}">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
-	<!-- <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/loader.css')}}">  -->
-	<link rel="icon" href="{{ asset('public/assets/images/favicon.png')}}">
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115461791-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-115461791-1');
-	</script>
 
-        <!-- Start of Async Drift Code --> 
-<!-- End of Async Drift Code -->
-  <style>
-            body {
-            display: none;
-        }
-        </style>   
- 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113294393-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <!-- Basic Page Needs -->
 
-	  gtag('config', 'UA-113294393-1');
-	</script>
-	<!--slider-main-start-->
-	<!-- responsive menu -->
-	<script type="text/javascript">
-		jQuery(document).ready(function($){
-			$('.menu').click(function(){
-				$('body').toggleClass('show-menu');
-			});
-			$('.close-button').click(function(){
-				$('body').removeClass('show-menu');
-			});
-			
-		});
-	</script>  
-       
-</head>
-<body class="pushmenu-push">
-<a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <meta charset="utf-8">
+
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <title>GTR Investment Solution</title>
+
+
+
+
+    <!-- Mobile Specific Metas -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <!-- Bootstrap  -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css"> 
+    <!-- Theme Style -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"> 
+    <!-- Responsive -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css"> 
+
+    <!-- Animation Style -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css"> 
+
+    <!-- Animation headline Style -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/headline.css"> 
+    <!-- REVOLUTION LAYERS STYLES -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/layers.css">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/settings.css"> 
+    <!-- Favicon and touch icons  --> 
+
+    <link href="icon/favicon.png" rel="icon"> 
+
+    <!--[if lt IE 9]>
+
+        <script src="javascript/html5shiv.js"></script>
+
+        <script src="javascript/respond.min.js"></script>
+
+    <![endif]-->
+
+</head>  
+<body class="header_sticky">

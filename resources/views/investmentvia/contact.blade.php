@@ -14,11 +14,32 @@
 
 
 <!--SERVICE SECTION-->
+
+ 
+
 <section id="contact" class="padding">
   <div class="container">
-    <div class="row padding-bottom">
-      <div class="col-md-4 contact_address heading_space wow fadeInLeft animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInLeft;">
-        <h2 class="heading heading_space"><span>Get</span> in Touch <span class="divider-left"></span></h2>
+    <div class="wrap-infobox">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="info-box text-center">
+                          <br>
+                            <h3>Indore,India</h3>
+                            <ul>
+                                <li>Plot No 228, Ida Sch No. 54 PU-4, Indore M.P</li>
+                                <li>Email: info@gtrinvestmentsolution.com</li>
+                                <li>Phone: 812-0694-466</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+    <div class="row padding-bottom" style="">
+      <div class="col-md-4 contact_address heading_space wow fadeInLeft animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInLeft; ">
+
+        <h2 class="heading heading_space"><span>How can we help you?</span>  <span class="divider-left"></span></h2>
+        <hr>
         <p>Standard Certification Services</p>
         <div class="address">
           <i class="icon icon-map-pin border_radius"></i>
@@ -33,7 +54,7 @@
         <div class="address">
           <i class="icon icon-phone4 border_radius"></i>
           <h4>Call Us</h4>
-          <p>+91-{{$contact_number or '8982890444'}}</p>
+          <p>+91-{{$contact_number or '812-0694-466'}}</p>
           <p>{!!$company_address or 'Indore' !!}</p>
         </div>
       </div>
@@ -84,4 +105,5 @@
     
   </div>
 </section>
+<br><br>
 @stop

@@ -1,166 +1,277 @@
-<!-- News-->
-<!-- News-->
-<section id="news" class="padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 wow fadeInDown text-center">
-       <h2 class="heading heading_space"><span>Current </span> Market Update <span class="divider-center"></span></h2>
-      </div>
+<!-- Footer -->
+
+    <footer class="footer widget-footer">
+
+        <div class="container">
+
+            <div class="row"> 
+
+                <div class="col-lg-3 col-sm-6 reponsive-mb30">  
+
+                    <div class="widget-logo">
+
+                        <div id="logo-footer" class="logo">
+
+                            <a href="index.html" rel="home">
+
+                                <img src="images/logofooter1.png" alt="image">
+
+                            </a>
+
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p> 
+
+                        <ul class="flat-information">
+
+                            <li><i class="fa fa-map-marker"></i><a href="#">Plot No 228, Ida Sch No. 54 PU-4 Indore M.P</a></li>
+
+                            <li><i class="fa fa-phone"></i><a href="#">+91-812-0694-466</a></li>
+
+                            <li><i class="fa fa-envelope"></i><a href="#">info@gtrinvestmentsolution.com</a></li>
+
+                        </ul>           
+
+                    </div>         
+
+                </div><!-- /.col-md-3 --> 
+
+
+
+                <div class="col-lg-3 col-sm-6 reponsive-mb30">  
+
+                    <div class="widget widget-out-link clearfix">
+
+                        <h5 class="widget-title">Our Links</h5>
+
+                        <ul class="one-half">
+
+                            <li><a href="#">Home</a></li>
+
+                            <li><a href="#">About Us</a></li>
+
+                            <li><a href="#">Services</a></li>
+
+                            <li><a href="#">Pages</a></li>
+
+
+                        </ul>
+
+                        <ul class="one-half">
+
+                            <li><a href="blog">News</a></li>
+
+                            <li><a href="contact">Contact</a></li>
+
+                            <li><a href="#">Support</a></li>
+
+                            <li><a href="#">Careers</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div><!-- /.col-md-3 -->
+
+
+
+                <div class="col-lg-3 col-sm-6 reponsive-mb30">
+
+                    <div class="widget widget-recent-new">
+
+                        <h5 class="widget-title">Recent News</h5>
+
+                        <ul class="popular-new">
+
+                            <li>
+
+                                <div class="text">
+
+                                    <h6><a href="#">Colombia Gets a Business Makeover</a></h6>
+
+                                    <span>2018</span>
+
+                                </div>
+
+                            </li>
+
+                            <li>
+
+                                <div class="text">
+
+                                    <h6><a href="#">Counting the Cost of Delay & Disruption</a></h6>
+
+                                    <span>2018</span>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div><!-- /.col-md-3 -->
+
+
+
+                <div class="col-lg-3 col-sm-6 reponsive-mb30">
+
+                    <div class="widget widget-letter">
+
+                        <h5 class="widget-title">Newsletter</h5>
+
+                        <p class="info-text">Subscribe our newsletter gor get noti-fication about new updates, etc.</p>
+
+                        <form id="subscribe-form" class="flat-mailchimp" method="post" action="#" data-mailchimp="true">
+
+                            <div class="field clearfix" id="subscribe-content"> 
+
+                                <p class="wrap-input-email">
+
+                                    <input type="text" tabindex="2" id="subscribe-email" name="subscribe-email" placeholder="Enter Your Email">
+
+                                </p>
+
+                                <p class="wrap-btn">
+
+                                    <button type="button" id="subscribe-button" class="flat-button subscribe-submit" title="Subscribe now">SUBSCRIBE</button>
+
+                                </p>
+
+                            </div>
+
+                            <div id="subscribe-msg"></div>
+
+                        </form>
+
+                    </div>
+
+                </div><!-- /.col-md-3 -->
+
+            </div><!-- /.row -->    
+
+        </div><!-- /.container -->
+
+    </footer>
+
+
+
+    <!-- Bottom -->
+
+    <div class="bottom">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="copyright"> 
+
+                        <p>@2018 All rights reserved.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+
+                    <ul class="social-links style2 text-right">
+
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+
+                    </ul> 
+
+                </div>
+
+            </div>          
+
+        </div><!-- /.container -->
+
+    </div><!-- bottom -->
+
+ <!-- Go Top -->
+
+    <a class="go-top">
+
+        <i class="fa fa-angle-up"></i>
+
+    </a>       
+
     </div>
-    <div class="row">
-  <ul class="list-inline">
-      <li>
-          <a href="https://www.nseindia.com" target="_blank">  <img src="{{ asset('storage/assets/images/nse.jpg')}}"> </a>
-      </li>
-       <li>
-          <a href="https://www.marketwatch.com" target="_blank">  <img src="{{ asset('storage/assets/images/marketwatch.jpg')}}"></a>
-      </li>
-      <li>
-          <a href="https://www.investing.com" target="_blank">  <img src="{{ asset('storage/assets/images/investing.jpg')}}"></a>
-      </li>
-      <li>
-          <a href="https://www.www.moneycontrol.com" target="_blank"> <img src="{{ asset('storage/assets/images/moneycontrol.jpg')}}"></a>
-      </li>
-      <li>
-          <a href="https://www.mcxcontrol.com" target="_blank">  <img src="{{ asset('storage/assets/images/mcx.jpg')}}"></a>
-      </li>
-      <li>
-          <a href="https://www.cnbc.com" target="_blank"> <img src="{{ asset('storage/assets/images/cnbc.jpg')}}"> </a>
-      </li>
-      </ul>
-    </div>
-  </div>
-</section>
+
+    
+
+    <!-- Javascript -->
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/tether.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script> 
+
+    <script src="js/jquery.easing.js"></script>    
+
+    <script src="js/jquery-waypoints.js"></script>    
+
+    <script src="js/jquery-validate.js"></script> 
+
+    <script src="js/jquery.cookie.js"></script>
+
+    <script src="js/smoothscroll.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <script src="js/jquery.flexslider-min.js"></script>
+
+    <script src="js/headline.js"></script>
+
+    <script src="js/parallax.js"></script>
 
 
-<!--FOOTER-->
-<footer class="padding-top">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-4 footer_panel bottom25">
-        <h3 class="heading bottom25">About Us<span class="divider-left"></span></h3>
-        <a href="index.html" class="footer_logo bottom25">
-
-        <img src="{{ asset('storage/assets/images/logo-white.png')}}" alt="Xwin"></a>
-        <p>Welcome to Research Infotech, We have been known for serving our customers with atmost care and dedication. Our motto has been always aligned with "Delivering Quality Services" and "Customer Satisfaction".</p>
-        <ul class="social_icon top25">
-          <li><a href="{{$facebook_url->field_value or '#'}}" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="{{$twitter_url->field_value or '#'}}" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="{{$linkedin_url->field_value or '#'}}" target="_blank" class="dribble"><i class="fa fa-dribbble"></i></a></li>
-          
-        </ul>
-      </div>
-      <div class="col-md-4 col-sm-4 footer_panel bottom25">
-        <h3 class="heading bottom25">Quick Links<span class="divider-left"></span></h3>
-        <ul class="links">
-          <li><a href="{{url('/')}}"><i class="fa fa-right"></i>Home</a></li>
-          <li><a href="{!! url('about')!!}"><i class="fa fa-right"></i>About Company</a></li>
-          <li><a href="{!! url('services')!!}"><i class="fa fa-right"></i>Services</a></li>
-          <li><a href="{!! url('contact')!!}"><i class="fa fa-right"></i>Contact Us</a></li>
-          <li><a href="{{url('free-trial')}}"><i class="fa fa-right"></i>Free Trial</a></li>
-          <li><a href="{!! url('payment')!!}"><i class="fa fa-right"></i>Payment</a></li>
-          <li><a href="{!! url('pricing')!!}"><i class="fa fa-right"></i>Pricing</a></li> 
-          <li><a href="{!! url('risk-profiling')!!}"><i class="fa fa-right"></i>Risk profiling</a></li> 
-
-
-          @foreach($pageMenu as $val)
-          <li><a href="{!! url('page/'.str_slug($val->title))!!}"><i class="fa fa-right"></i>{!! ucfirst($val->title)!!}</a></li>
-         @endforeach
-        </ul>
-      </div>
-      <div class="col-md-4 col-sm-4 footer_panel bottom25">
-        <h3 class="heading bottom25">Keep in Touch <span class="divider-left"></span></h3>
-         <p class=" address" style="float: left;"><i class="fa fa-map-marker" aria-hidden="true"></i>{!! $company_address !!}</p>
-        <p class=" address" ><i class="fa fa-phone" aria-hidden="true"></i>{!! $contact_number !!}</p>
-         <img src="{{ asset('storage/assets/images/footer-map.png')}}" class="img-responsive">
-      </div>
-    </div>
-  </div>
-</footer>
-<div class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p>Copyright &copy; {{date('Y')}} <a href="#.">Research Infotech</a>. all rights reserved. | SEBI REGISTRATION NO: INA000003726</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!--FOOTER ends-->
+    <script src="js/main.js"></script>
 
 
 
-<script src="{{ asset('public/assets/js/jquery-2.2.3.js')}}"></script>
-<script src="{{ asset('public/assets/js/bootstrap.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/bootsnav.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery.appear.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery-countTo.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery.parallax-1.1.3.js')}}"></script>
-<script src="{{ asset('public/assets/js/owl.carousel.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery.cubeportfolio.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery.matchHeight-min.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery.themepunch.tools.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/revolution.extension.layeranimation.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/revolution.extension.navigation.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/revolution.extension.parallax.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/revolution.extension.slideanims.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/revolution.extension.video.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/wow.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/functions.js')}}"></script>
-<script src="https://js.instamojo.com/v1/button.js"></script>
-<script>
-  $('.owl-carousel-2').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        300:{
-            items:3,
-            nav:false
-        },
-        500:{
-            items:5,
-            nav:true,
-            loop:false
-        }
-    }
-})
-</script>
+    <!-- Revolution Slider -->
 
- <script> 
-        
-  $(function () {
-      $('body').show();
-  }); 
-  </script>
- 
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('9iwz8utnsf2m');
-</script>
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="js/slider.js"></script>
+
+
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
+
+    <script src="js/revolution.extension.actions.min.js"></script>
+
+    <script src="js/revolution.extension.carousel.min.js"></script>
+
+    <script src="js/revolution.extension.kenburn.min.js"></script>
+
+    <script src="js/revolution.extension.layeranimation.min.js"></script>
+
+    <script src="js/revolution.extension.migration.min.js"></script>
+
+    <script src="js/revolution.extension.navigation.min.js"></script>
+
+    <script src="js/revolution.extension.parallax.min.js"></script>
+
+    <script src="js/revolution.extension.slideanims.min.js"></script>
 
 </body>
+
 </html>
