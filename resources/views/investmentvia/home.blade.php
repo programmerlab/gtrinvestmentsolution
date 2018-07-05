@@ -194,7 +194,7 @@
 
 
 
-                            <a href="#" target="_self" class="tp-caption flat-button text-center"         
+                            <a href="{{url('about')}}" target="_self" class="tp-caption flat-button text-center"         
 
 
 
@@ -212,13 +212,9 @@
 
                             data-height="['auto']"
 
-                            style="z-index: 3;">OUR company
+                            style="z-index: 3;"> OUR company </a> 
 
-                            </a><!-- END LAYER LINK -->
-
-
-
-                            <a href="#" target="_self" class="tp-caption flat-button style2 text-center"         
+                            <a href="{{url('payment')}}" target="_self" class="tp-caption flat-button style2 text-center"         
 
 
 
@@ -236,10 +232,9 @@
 
                             data-height="['auto']"
 
-                            style="z-index: 3;">contact us
+                            style="z-index: 3;">Pay Online
 
-                            </a><!-- END LAYER LINK -->
-
+                            </a><!-- END LAYER LINK --> 
                         </li>
 
 
@@ -411,7 +406,7 @@
 
 
 
-                            <a href="#" target="_self" class="tp-caption flat-button text-center"         
+                            <a href="{{url('about')}}" target="_self" class="tp-caption flat-button text-center"         
 
 
 
@@ -429,13 +424,13 @@
 
                             data-height="['auto']"
 
-                            style="z-index: 3;"><a href="{{url('about')}}">OUR company </a>
+                            style="z-index: 3;"> OUR company 
 
                             </a><!-- END LAYER LINK -->
 
 
 
-                            <a href="#" target="_self" class="tp-caption flat-button style2 text-center"         
+                            <a href="{{url('contact')}}" target="_self" class="tp-caption flat-button style2 text-center"         
 
 
 
@@ -453,7 +448,7 @@
 
                             data-height="['auto']"
 
-                            style="z-index: 3;"><a href="{{url('contact')}}">contact us </a>
+                            style="z-index: 3;"> contact us  
 
                             </a><!-- END LAYER LINK -->
 
