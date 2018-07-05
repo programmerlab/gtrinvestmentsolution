@@ -1,18 +1,15 @@
  <!-- Boxed -->
 
-    <div class="boxed">
-
-
-
+    <div class="boxed"> 
     <div class="top">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col-lg-6 col-sm-6 reponsive-onehalf">                      
-
-                    <p class="info-text">Welcome to Financial Services Consultant!</p>
+                <div class="col-lg-6 col-sm-6 reponsive-onehalf"> 
+                    <p class="info-text">Welcome to Financial Services Consultant! 
+                        </p>
 
                 </div><!-- /.col-md-6 -->       
 
@@ -45,7 +42,7 @@
                     </div>
 
                 </div>        
-
+                <marquee>  "We do not offer any Demat service. Our company SEBI registered Investment advisory. All Disputes are Subject to Indore Jurisdiction. we do not offer Refund." </marquee>
             </div><!-- /.row -->
 
         </div><!-- /.container -->
@@ -72,7 +69,7 @@
 
                                 <a href="index.html" rel="home">
 
-                                    <img src="images/logo1.png" alt="image">
+                                    <img src="{{url('images/logo1.png')}}" alt="image">
 
                                 </a>
 
@@ -90,7 +87,7 @@
 
                                     <div class="btn-click">
 
-                                        <a href="#" class="flat-button">FREE TRIAL</a>
+                                        <a href="{{url('free-trial')}}" class="flat-button">FREE TRIAL</a>
 
                                     </div>
 
@@ -202,7 +199,21 @@
                                         <li><a href="{{url('contact')}}">Contact</a>
 
                                             
-                                        </li>                       
+                                        </li> 
+
+                                         <li class="dropdown">
+ 
+                                        <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">More</a>
+
+                                            <ul class="dropdown-content">
+        
+
+          @foreach($pageMenu as $val)
+          <li><a href="{!! url('page/'.str_slug($val->title))!!}"><i class="fa fa-right"></i>{!! ucfirst($val->title)!!}</a></li>
+         @endforeach
+                                            </ul>  
+                                        </li>   
+
 
                                     </ul><!-- /.menu -->
 
@@ -256,3 +267,56 @@
         </header>
 
     </div>
+
+    <style type="text/css">
+        
+        .dropbtn {
+    background-color: #0f3661;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.dropdown a {
+        text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+.heading_space{
+    margin-top: 50px;
+}
+.faq_content {
+    margin-bottom:50px;
+}
+.faq_content table, th, td {
+   border: 1px solid black;
+   padding: 10px;
+}
+    </style>  

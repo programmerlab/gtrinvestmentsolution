@@ -22,29 +22,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
     <!-- Bootstrap  -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css"> 
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/bootstrap.css')}}"> 
     <!-- Theme Style -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"> 
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/style.css')}}"> 
     <!-- Responsive -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css"> 
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/responsive.css')}}"> 
 
     <!-- Animation Style -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css"> 
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/animate.css')}}"> 
 
     <!-- Animation headline Style -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/headline.css"> 
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/headline.css')}}"> 
     <!-- REVOLUTION LAYERS STYLES -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/layers.css">
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/layers.css')}}">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/settings.css"> 
+    <link rel="stylesheet" type="text/css" href="{{url('stylesheets/settings.css')}}"> 
     <!-- Favicon and touch icons  --> 
 
-    <link href="icon/favicon.png" rel="icon"> 
+    <link href="{{url('icon/favicon.png" rel="icon"> 
 
     <!--[if lt IE 9]>
 

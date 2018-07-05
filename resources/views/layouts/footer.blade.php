@@ -14,21 +14,19 @@
 
                             <a href="index.html" rel="home">
 
-                                <img src="images/logofooter1.png" alt="image">
+                                <img src="{{url('images/logofooter1.png')}}" alt="GTR Investmentsolution">
 
                             </a>
 
                         </div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p> 
+                        <p>Welcome to GTR Investmentsolution, We have been known for serving our customers with atmost care and dedication. Our motto has been always aligned with "Delivering Quality Services" and "Customer Satisfaction".</p> 
 
                         <ul class="flat-information">
 
                             <li><i class="fa fa-map-marker"></i><a href="#">Plot No 228, Ida Sch No. 54 PU-4 Indore M.P</a></li>
 
-                            <li><i class="fa fa-phone"></i><a href="#">+91-812-0694-466</a></li>
-
-                            <li><i class="fa fa-envelope"></i><a href="#">info@gtrinvestmentsolution.com</a></li>
+                            <li><i class="fa fa-email"></i> info@gtrinvestmentsolution.com</li>
 
                         </ul>           
 
@@ -46,26 +44,37 @@
 
                         <ul class="one-half">
 
-                            <li><a href="#">Home</a></li>
+                            <li><a href="{{url('/')}}">Home</a></li>
 
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="{{url('about')}}">About Us</a></li>
 
-                            <li><a href="#">Services</a></li>
+                            <li><a href="{{url('services')}}">Services</a></li>
 
-                            <li><a href="#">Pages</a></li>
+                            <?php $i=1; ?>
+                            @foreach($pageMenu as $val)
+                            <?php
+                            $i++;
+                                if($i==4){
+                                    break;
+                                }
+                             ?>
+                          <li><a href="{!! url('page/'.str_slug($val->title))!!}"><i class="fa fa-right"></i>{!! ucfirst($val->title)!!}</a></li>
+                         @endforeach
 
 
                         </ul>
 
                         <ul class="one-half">
-
-                            <li><a href="blog">News</a></li>
-
-                            <li><a href="contact">Contact</a></li>
-
-                            <li><a href="#">Support</a></li>
-
-                            <li><a href="#">Careers</a></li>
+                            <?php $j=1; ?>
+                            @foreach($pageMenu as $val)
+                            <?php
+                            $j++;
+                                if($j<=4){
+                                    continue;
+                                }
+                             ?>
+                          <li><a href="{!! url('page/'.str_slug($val->title))!!}"><i class="fa fa-right"></i>{!! ucfirst($val->title)!!}</a></li>
+                         @endforeach
 
                         </ul>
 
@@ -119,26 +128,41 @@
 
                     <div class="widget widget-letter">
 
-                        <h5 class="widget-title">Newsletter</h5>
+                        <h5 class="widget-title">Office Address</h5>
 
-                        <p class="info-text">Subscribe our newsletter gor get noti-fication about new updates, etc.</p>
+                        <p class="info-text">Keep in Touch</p>
 
                         <form id="subscribe-form" class="flat-mailchimp" method="post" action="#" data-mailchimp="true">
 
                             <div class="field clearfix" id="subscribe-content"> 
 
-                                <p class="wrap-input-email">
+                                 <aside class="widget widget-info">          
 
-                                    <input type="text" tabindex="2" id="subscribe-email" name="subscribe-email" placeholder="Enter Your Email">
+                                    <div class="textwidget clearfix">
 
-                                </p>
+                                        <div class="info-icon">
 
-                                <p class="wrap-btn">
+                                            <i class="fa fa-map-marker"></i>
 
-                                    <button type="button" id="subscribe-button" class="flat-button subscribe-submit" title="Subscribe now">SUBSCRIBE</button>
+                                        </div>
 
-                                </p>
+                                        <div class="info-text">
 
+                                           <ul class="flat-information">
+
+                                                <li><i class="fa fa-map-marker"></i><a href="#">Plot No 228, Ida Sch No. 54 PU-4 Indore M.P</a></li>
+
+                                                <li><i class="fa fa-phone"></i><a href="#">+91-812-0694-466</a></li>
+
+                                                <li><a href="www.gtrinvestmentsolution.com">www.gtrinvestmentsolution.com</a></li>
+
+                                            </ul> 
+
+                                        </div>
+
+                                    </div>
+
+                                </aside>
                             </div>
 
                             <div id="subscribe-msg"></div>

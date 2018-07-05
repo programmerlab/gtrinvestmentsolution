@@ -110,6 +110,13 @@ Route::get('package',[
                 'uses' => 'HomeController@contact'
                 ]
             );  
+Route::match(['post','get'],'requestCallBack',[
+                'as' => 'requestCallBack',
+                'uses' => 'HomeController@requestCallBack'
+                ]
+            );
+
+ 
  
   Route::match(['post','get'],'page/{string}',[
                 'as' => 'policy',

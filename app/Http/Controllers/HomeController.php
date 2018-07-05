@@ -87,9 +87,9 @@ class HomeController extends Controller
     public function about()
     { 
         $title = "About Us";
-        $tagLine = "Intraday Stock Trading Tips by Research Infotech";
+        $tagLine = "Intraday Stock Trading Tips by GTR Investmentsolution";
 
-        $meta1 = '<meta name="description" content=" Research Infotech Provides Intraday Tips,Share Market Trading Tips,Intraday Stock Tips,Day Trading Tips, Mcx Commodity Trading Tips,Stock & Nifty future tips on Intraday Basis. "/>';
+        $meta1 = '<meta name="description" content=" GTR Investmentsolution Provides Intraday Tips,Share Market Trading Tips,Intraday Stock Tips,Day Trading Tips, Mcx Commodity Trading Tips,Stock & Nifty future tips on Intraday Basis. "/>';
         $meta2 = '<meta name="keywords" content=" Intraday tips,intraday stock tips,free intraday tips on mobile, stock trading tips,stock tips,stock market tips for intraday, commodity tips, stock tips India,stock future tips,nifty future tips,option tips, indian intraday trading tips Stock Intraday Tips for Today,Free Intraday Tips on Mobile"/>';
 
 
@@ -99,10 +99,10 @@ class HomeController extends Controller
     public function home(Request $request)
     {
         $title = "Home";
-        $tagLine = "Research Infotech- Best Stock Market Tips Provider ";
+        $tagLine = "GTR Investmentsolution- Best Stock Market Tips Provider ";
         $request->session()->forget('amount');
 
-        $meta1 = '<meta name="description" content=" Research Infotech is one of the leading Stock Advisory Company which Provides Stock Tips,Mcx Tips,Commodity Trading Tips,Indian Share Market Tips,Equity Tips,Intraday Tips,Nifty Future Tips, Free Intraday Stock Tips on Mobile. "/>';
+        $meta1 = '<meta name="description" content=" GTR Investmentsolution is one of the leading Stock Advisory Company which Provides Stock Tips,Mcx Tips,Commodity Trading Tips,Indian Share Market Tips,Equity Tips,Intraday Tips,Nifty Future Tips, Free Intraday Stock Tips on Mobile. "/>';
         $meta2 ='<meta name="keywords" content="Stock Market Tips, Intraday Tips Provider, Best SEBI Registered Advisory"/>';
 
         return view('investmentvia.home',compact('title','tagLine','meta1','meta2'));
@@ -117,7 +117,7 @@ class HomeController extends Controller
         $url = url('public/assets/js/jquery-2.2.3.js');
         $jsUrl = '<script src="'.$url.'"></script>';
 
-        $meta1 = '<meta name="description" content=" Research Infotech Provide the Stock & Commodity Market Tips, Indian Stock Market Tips,Mcx Tips,Equity Trading Tips,Future & Option Tips,Bullion Tips & Premium Services at best among the market. "/>';
+        $meta1 = '<meta name="description" content=" GTR Investmentsolution Provide the Stock & Commodity Market Tips, Indian Stock Market Tips,Mcx Tips,Equity Trading Tips,Future & Option Tips,Bullion Tips & Premium Services at best among the market. "/>';
         $meta2 = '<meta name="keywords" content="share tips, stock cash tips, Indian share market tips, share market tips, Intraday Trading Tips, Share Market Recommendations, Today Stock Cash Tips, commodities trading tips, Nifty charts, Premium Services & Tips"/>';
           
         return view('investmentvia.service',compact('service','jsUrl','title','tagLine','meta1','meta2'));
@@ -165,11 +165,40 @@ class HomeController extends Controller
         return view('investmentvia.faq',compact('title','tagLine','faq')); 
     }
 
+    public function requestCallBack(Request $request, Contact $contact)
+    {   
+        $url = rtrim(url()->previous(),'/');
+        $title = "requestCallBack";
+        $tagLine = "Free Intraday Equity and Commodity Tips by GTR Investmentsolution";
+        if($request->method()=='POST'){
+            $validator = Validator::make($request->all(), [
+                'name' => 'required|min:3',
+                'email' => 'required|email',
+                'phone' => 'required|numeric|min:10'
+            ]); 
+
+            if ($validator->fails()) {
+                 return Redirect::to('/#requestCallBack')
+                        ->withErrors($validator)
+                        ->withInput();
+            }else{
+                $input = $request->only('name','email','phone');
+                \DB::table('contacts')->insert($input);
+                if($url==url()->to('/')){
+                    return Redirect::to('status/success')  ;
+                }
+                return Redirect::to('contact')->withErrors(['successMsg'=>'Thanking for Contacting us!']);
+                
+            }
+        }
+        return view('investmentvia.index',compact('title','tagLine','contact'));   
+    }
+
     public function contact(Request $request, Contact $contact)
     {   
         $url = rtrim(url()->previous(),'/');
         $title = "Contact";
-        $tagLine = "Free Intraday Equity and Commodity Tips by Research Infotech";
+        $tagLine = "Free Intraday Equity and Commodity Tips by GTR Investmentsolution";
         if($request->method()=='POST'){
             $validator = Validator::make($request->all(), [
                 'name' => 'required|min:3',
@@ -264,7 +293,7 @@ class HomeController extends Controller
     public function riskProfiling()
     {
         $title = "Risk Profiling";
-        $tagLine = "Research Infotech Investment Advisory";
+        $tagLine = "GTR Investmentsolution Investment Advisory";
         return view('investmentvia.riskProfiling',compact('title','tagLine'));
     }
 
@@ -352,7 +381,7 @@ class HomeController extends Controller
 
     public function riskProfilingForm(Request $request, Kyc $kyc)
     {
-        $title       = "Research Infotech Investment Advisory";
+        $title       = "GTR Investmentsolution Investment Advisory";
         $tagLine     = "We offer the most complete advisory services in the country";
 
         if($request->method()=='POST'){
@@ -426,7 +455,7 @@ class HomeController extends Controller
     public function freeTrialForm(Request $request, FreeTrial $freeTrial)
     {
         $title = "Free Trial";
-        $tagLine = "Free Intraday Equity and Commodity Tips by Research Infotech";
+        $tagLine = "Free Intraday Equity and Commodity Tips by GTR Investmentsolution";
 
         if($request->method()=='POST'){
             $validator = Validator::make($request->all(), [
@@ -455,7 +484,7 @@ class HomeController extends Controller
     }
     public function lifeAtResearchInfotech(Request $request)
     {
-        $title = "life @Research Infotech";
+        $title = "life @GTR Investmentsolution";
         $tagLine = "We offer the most complete advisory services in the country";
         $gallery = \DB::table('gallery')->get();
       // dd(file_exists(storage_path('gallery/gallery6.jpg')));

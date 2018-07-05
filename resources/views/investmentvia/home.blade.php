@@ -28,7 +28,7 @@
 
                         <!-- SLIDE 1 -->
 
-                        <li data-index="rs-3050" data-transition="fade" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"    data-rotate="0"  data-saveperformance="off"  data-title="Ken Burns" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">                        
+                        <li data-index="rs-3050" data-transition="fade" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"    data-rotate="0"  data-saveperformance="off"  data-title="Ken Burns" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">                        
 
                             <!-- <div class="overlay">
 
@@ -36,7 +36,7 @@
 
                             <!-- MAIN IMAGE -->
 
-                            <img src="images/slides/6.jpg"  alt=""  data-bgposition="center center" data-kenburns="off" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="images/slides/6.jpg"  alt=""  data-bgposition="center center" data-kenburns="off" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                             <!-- LAYERS -->
 
@@ -86,7 +86,7 @@
 
 
 
-                                style="z-index: 16; white-space: nowrap;">Elegant & Efficient!
+                                style="z-index: 16; white-space: nowrap; color:#fff">Favourable Business Practices Sustainable Profits
 
                             </div>
 
@@ -304,8 +304,7 @@
 
 
 
-                                style="z-index: 16; white-space: nowrap;">Elegant & Efficient!
-
+                                style="z-index: 16; white-space: nowrap;">Favourable Business Practices Sustainable Profits.
                             </div>
 
 
@@ -430,7 +429,7 @@
 
                             data-height="['auto']"
 
-                            style="z-index: 3;">OUR company
+                            style="z-index: 3;"><a href="{{url('about')}}">OUR company </a>
 
                             </a><!-- END LAYER LINK -->
 
@@ -454,7 +453,7 @@
 
                             data-height="['auto']"
 
-                            style="z-index: 3;">contact us
+                            style="z-index: 3;"><a href="{{url('contact')}}">contact us </a>
 
                             </a><!-- END LAYER LINK -->
 
@@ -696,7 +695,7 @@ Stock Cash BTST Tips</h5>
 
                     <div class="btn-showall float-right">
 
-                        <a href="projects.html" class="flat-button">Show All Services</a>
+                        <a href="{{url('services')}}" class="flat-button">Show All Services</a>
 
                     </div>
 
@@ -1012,7 +1011,7 @@ Stock Cash BTST Tips</h5>
 
 
 
-    <section class="flat-row v3 parallax parallax4">
+    <section class="flat-row v3 parallax parallax4" id="requestCallBack">
 
         <div class="section-overlay style2"></div>
 
@@ -1040,30 +1039,24 @@ Stock Cash BTST Tips</h5>
 
             <div class="wrap-formrequest">
 
-                <form id="contactform" class="contactform wrap-form clearfix" method="post" action="./contact/contact-process2.php" novalidate="novalidate">
+                <form  class="contactform wrap-form clearfix" method="post" action="{{url('requestCallBack')}}" novalidate="novalidate">
 
-                    <span class="flat-input flat-select">
+                    <input type="hidden" name="_token" value="{{ csrf_token()}}">
+                    <span class="flat-input"><input name="name" type="text" value="" placeholder="Your Name:*" required="required" value="{{old('name')}}"></span>
 
-                        <select>
 
-                            <option value="">How can we help:*</option>
+                    <span class="flat-input"><input name="email" type="text" value="" placeholder="Your Email:*" required="required" value="{{old('name')}}"></span>
 
-                            <option value="">How can we help:*</option>
+                    <span class="flat-input"><input name="phone" type="text" value="" placeholder="Phone Number:*" required="required" value="{{old('name')}}"></span>
 
-                            <option value="">How can we help:*</option>
-
-                        </select>
-
+                    <span class="flat-input">
+                        <button name="submit" type="submit" class="flat-button" id="submit" title="Submit now">SUBMIT<i class="fa fa-angle-double-right"></i></button> 
                     </span>
 
-                    <span class="flat-input"><input name="name" type="text" value="" placeholder="Your Name:*" required="required"></span>
-
-                    <span class="flat-input"><input name="phone" type="text" value="" placeholder="Phone Number:*" required="required"></span>
-
-                    <span class="flat-input"><button name="submit" type="submit" class="flat-button" id="submit" title="Submit now">SUBMIT<i class="fa fa-angle-double-right"></i></button></span>
-
                 </form>
-
+                <span class="label label-danger col-md-4" style="color:#ffffff">{{ $errors->first('name', ':message') }}</span>
+                <span class="label label-danger col-md-4" style="color:#ffffff">{{ $errors->first('email', ':message') }}</span>
+                <span class="label label-danger col-md-4" style="color:#ffffff">{{ $errors->first('phone', ':message') }}</span>
             </div>
 
         </div>
