@@ -184,16 +184,18 @@
 
                                         </li>
 
-                                        <li>
-
+                                        <li> 
                                             <a href="{{url('pricing')}}">Pricing</a>
-
-                                          
                                         </li>
 
-                                        <li><a href="{{url('blog')}}">Blogs</a>
+                                        <li> 
+                                            <a href="{{url('payment')}}">Payment</a>
+                                        </li>
 
-                                         
+                                        <li><a href="{{url('free-trial')}}">Free Trial</a> 
+                                        </li>
+
+                                        <li><a href="{{url('kyc')}}">Free Kyc</a> 
                                         </li>
 
 

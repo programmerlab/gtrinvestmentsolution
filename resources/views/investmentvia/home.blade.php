@@ -520,9 +520,9 @@
 
                         <div class="box-content">
 
-                            <h5  class="box-title">Corporate Finance</h5>  
+                            <h5  class="box-title">MCX GOLD OPTION TIPS</h5>  
 
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                            <p>Big opportunity for retail trades who wish to trades in GOLD commodity</p> 
 
                         </div>
 
@@ -546,9 +546,10 @@
 
                         <div class="box-content">
 
-                            <h5  class="box-title">Economic Consulting</h5>  
+                            <h5  class="box-title">Nifty Option Tips</h5>  
 
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                            <p>Nifty Option Tips
+For starters with very less capital -- Anyone who wants to start a new service.</p> 
 
                         </div>
 
@@ -572,9 +573,10 @@
 
                         <div class="box-content">
 
-                            <h5  class="box-title">Forensic & Litigation</h5>  
+                            <h5  class="box-title">
+Stock Cash BTST Tips</h5>  
 
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                            <p>Get benefit from gap up/gap down market every day, while entering in trade</p> 
 
                         </div>
 
@@ -598,9 +600,9 @@
 
                         <div class="box-content">
 
-                            <h5  class="box-title">Strategic Communications</h5>  
+                            <h5  class="box-title">Inventory Calls</h5>  
 
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                            <p>Inventory Calls-based on Inventory Report. Get the benefit of each services.</p> 
 
                         </div>
 
@@ -624,9 +626,9 @@
 
                         <div class="box-content">
 
-                            <h5  class="box-title">Technology Consulting</h5>  
+                            <h5  class="box-title">Stock Option Platinum Tips</h5>  
 
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                            <p>In this pack we provide calls in Stock Option segment for traders</p> 
 
                         </div>
 
@@ -650,9 +652,9 @@
 
                         <div class="box-content">
 
-                            <h5  class="box-title">Healthcare Consulting</h5>  
+                            <h5  class="box-title">Stock Future Platinum Tips</h5>  
 
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                            <p>In this pack we provide calls in Stock Future segment for traders</p> 
 
                         </div>
 

@@ -13,33 +13,19 @@
 
 
 <!--SERVICE SECTION-->
-<section id="faq" class="padding">
-  <div class="container">
-    <div class="row">
+<section class="flat-row page-contact" style="padding-bottom: 0;">
+        <div class="container">
+            <div class="wrap-infobox" style="padding-bottom: 20px;margin-bottom: 0;">
+               <div class="row">
       <div class="col-md-12">
          <h2 class="heading heading_space wow fadeInDown"><span>Frequently</span> Payment<span class="divider-left"></span> </h2> 
            
           <div class="faq_content wow fadeIn" data-wow-delay="400ms">
               <ul class="items">
                  <li><a href="#.">Online Payment</a>
+                  <hr>
                   <ul class="sub-items">
-                   <!--  <li style="display: inline;">
-                       <a href="{{ url('checkOutEBS/stock?amount=1000') }}" class="btn btn-info"  target="_blank" >
-                          EBS payment
-                       </a>
-                    </li> -->
-
-                   <li style="display: inline;">
-                        
-                         <a href="https://www.instamojo.com/@researchinfotech1788" target="_blank"><img src="{{ asset('storage/assets/images/pay-online.png')}}"></a>  
-
-                    </li>
-
-                  <!--   <li style="display: inline;">
-                       <a href="{{ url('checkout/stock?amount=0') }}" class="btn btn-success"   target="_blank">
-                          Ccavenue payment
-                       </a>
-                    </li> -->
+                    
                        <li style="display: inline;">
                        <a href="https://easebuzz.in/pay/researchinfotech" target="_blank" class="btn btn-primary"  target="_blank">
                          
@@ -48,10 +34,17 @@
                     </li> 
                   </ul>
                 </li>
-
+               <b> <p style="
+    background: antiquewhite;
+    padding: 10px;
+    margin-top: 26px;
+    margin-bottom: 12px;
+"> Bank Deposit </p> </b>
                  @foreach($bankAccount as $result)
+
                   <li><a href="#.">{{$result->bank_name}}</a>
-                  <ul class="sub-items">
+                  <ul class="sub-items"> 
+
                     <li>
                         ACCOUNT NAME	: {{$result->account_name or 'Researchinfotech' }}</br>
                         A/C NO	: {{$result->account_number}} </br>     
