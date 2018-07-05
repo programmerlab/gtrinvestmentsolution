@@ -17,10 +17,10 @@
             <div class="title-section style2 left">
                 <h1 class="title"><span>We advise</span> you, you call the right decision!</h1>
                 <div class="sub-title">
-                    Over The Last 30 Years, We’ve Been In This Corporate Consulting Business, We Were Able To Help Hundreds Of Top-Flight Companies And Thousands Of SMBs To Call The Right Decisions…
+                   We feels proud for the role we have played in enabling and empowering self-directed and non directed traders and investors for last several years. Since years, our enduring individuals have put their trust in us to score incredible success.
                 </div>
                 <div class="sub-title">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    We have best SEBI investment advisor which gives you profitable call , so that you can earn much better than from other advisers.
                 </div>
             </div>
             <div class="about-counter">
@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title-section style3 text-center">
-                        <h1 class="title">Meet Our Team</h1>
+                        <h1 class="title">Meet Core Our Team</h1>
                     </div>
                 </div>
             </div>
@@ -137,92 +137,59 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="flat-team">                            
-                        <div class="avatar">             
-                            <img src="images/team/5.jpg" alt="image">
-                        </div>                        
-                        <div class="content text-center">
-                            <h5 class="name">Jonh Nash</h5>
-                            <p class="position">Tax Advice</p>
-                            <ul class="social-links style2 team">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="flat-team">                            
-                        <div class="avatar">             
-                            <img src="images/team/6.jpg" alt="image">
-                        </div>                        
-                        <div class="content text-center">
-                            <h5 class="name">Rebeca Masew</h5>
-                            <p class="position">Tax Advice</p>
-                            <ul class="social-links style2 team">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="flat-team">                            
-                        <div class="avatar">             
-                            <img src="images/team/7.jpg" alt="image">
-                        </div>                        
-                        <div class="content text-center">
-                            <h5 class="name">Bruce Hill</h5>
-                            <p class="position">Tax Advice</p>
-                            <ul class="social-links style2 team">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="flat-team">                            
-                        <div class="avatar">             
-                            <img src="images/team/8.jpg" alt="image">
-                        </div>                        
-                        <div class="content text-center">
-                            <h5 class="name">Daisy King</h5>
-                            <p class="position">Tax Advice</p>
-                            <ul class="social-links style2 team">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
 <section class="flat-row padingbotom">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 history-text">
+                    <div class="title-section style3 left">
+                        <h1 class="title">GTR Investmentsolution</h1>
+                    </div>
+                    <p>Gtr Investmentsolution : Top Investment Advisor: having the sole motto as ‘Sign of Trust ’ , and is meant to be translated into an proposition that is led by capitalism and creativity, sheltered by creditable and validate outcome. Research clients progressively stepping up with the smart recommendation provided by one and only Research Infotech team' - giving them consistent idea into investments, that is soak up as profit and fame into the target market.
+
+                    </p>
+                     
+                </div>
+
+
                 <div class="col-lg-6 history-text">
                     <div class="title-section style3 left">
-                        <h1 class="title">Our History</h1>
+                        <h1 class="title">Gtr Investmentsolution VIEWPOINT.</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consec-tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in vo-luptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat.-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#" class="flat-button style2">Read more</a>
+                    <p>Research Infotech is SEBI registered company in India. Since last few years we are constantly analyzing the market and what we cropped out is a bitter truth that may get surprised you hard somewhere. Most of the investors invest huge revenues from their livelihood, with a sole view of earning profits from the investment. But, situation becomes worse when you invest as a No-Voice investor, which lets you into a down graph. We are SEBI registered tips provider and provides you a tips that will surely provide you a profit with proper target.
+
+                    </p>
+                     
                 </div>
-                <div class="col-lg-6">
+
+
+                <div class="col-lg-6 history-text">
+                    <div class="title-section style3 left">
+                        <h1 class="title">PERCEPTION & VALUES .</h1>
+                    </div>
+                    <p>Research Infotech, is SEBI registered investment advisory,in which top experts forecast market by-product smartly, keeping risk-factors into their mind with a view to make computation and earn profit in the pocket of investing customer Research Infotech with SEBI registered investment advisors is one of the most favourable workplace, due to its following singularities: <br>
+
+·        Sharp Judgement <br>
+
+·        Acute perception<br>
+
+·        Concurrent connection with multiple clients<br>
+
+·        Availability<br>
+
+·        Leadership<br>
+
+We believe on maintain healthy and long-term relation with our clients on the basis of client satisfaction.
+
+                    </p>
+                     
+                </div>
+
+
+              <!--   <div class="col-lg-6">
                     <div class="main-history">
                         <div class="wrap-step clearfix">
                             <div class=" data-step float-left">
@@ -261,7 +228,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

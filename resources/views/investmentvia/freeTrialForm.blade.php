@@ -12,16 +12,16 @@
 @include('partials/titlebar')
 <!--Page Header-->
 <style>
-    .banner{background: url(storage/assets/images/bouncer-banner.original.jpg) no-repeat top center;
+    .banner2{background: url(storage/assets/images/bouncer-banner.original.jpg) no-repeat top center;
                    background-attachment: fixed;
                    background-size: cover;
-                   color: #fff;
+                   color: #000;
                    padding-top: 0px;
         }
     #banner{
         padding:0px;
 
-        color:#fff;
+        color:#000;
     }
     .banner-left{
         padding:60px 0;
@@ -41,7 +41,7 @@
         font-size:16px;
     }
     .banner-left h3{
-        color:#fff;
+        color:#000;
         font-size:20px;
         font-family: 'Raleway';
     }
@@ -53,7 +53,7 @@
         margin:30px 0 0 20px;
     }
     .banner-right{
-        background-color:rgba(0, 0, 0, 0.4);
+        background-color:#f2c21a;
         margin-top: 50px;
         border-radius:5px;
         text-align:center;  
@@ -61,7 +61,7 @@
     .banner-right h2{
         font-size:40px !important;
         font-weight:900 !important;
-        color: #fff;
+        color: #000;
     }
     input[type="text"],
     input[type="tel"],
@@ -69,7 +69,7 @@
         border-radius: 5px;
         height: 50px;
         margin-top: 20px;
-        color:#747474;
+        color:#000;
         font-size:18px;
         width:100%;
         padding-left:10px;
@@ -78,12 +78,12 @@
     <!-- .contact2{background: url(storage/assets/images/bouncer-banner.original.jpg) no-repeat top center; -->
                  <!-- background-attachment: fixed; -->
                  <!-- background-size: cover; -->
-                 <!-- color: #fff;} -->
+                 <!-- color: #000;} -->
     textarea{
         border-radius: 5px;
         height: 80px;
         margin-top: 20px;
-        color:#747474;
+        color:#000;
         font-size:18px;
         width:100%;
         border:0;
@@ -111,7 +111,7 @@
     }
     #services{
         padding:20px 0;
-        background-color:#fff;
+        background-color:#000;
     }
     .serviceBox{
         padding:30px 0;
@@ -149,7 +149,7 @@
     #content{
         padding-top:20px;
         padding-bottom:50px;
-        background-color:#fff;
+        background-color:#000;
     }
     #content p{
         font-size:16px;
@@ -159,7 +159,7 @@
     }
     #content h1{
         font-size:42px;
-        color:#2a2a2a; 
+        color:#000; 
         font-weight:lighter;
         font-family: 'Lato';
         text-align:center;
@@ -190,11 +190,7 @@
   
 <section id="contact" class="padding">
      <div class="container">
-        <div class="row">
-            <div class="col-md-12 wow fadeInRight animated" data-wow-delay="500ms" style="visibility: visible; animation-delay: 4500ms; animation-name: fadeInRight;">
-                <h2 class="heading heading_space"> <span>{{ucfirst($title)}} </span> <span class="divider-left"></span></h2>
-            </div>
-        </div>
+         
          @if($errors->first('successMsg', ' has-error'))
             <div class="alert alert-info">Thank you!. Request submitted successfully.</div>
         @endif
@@ -213,18 +209,18 @@
                             </li>
                             <li>
                                 <i class="fa-li fa fa-check-circle fa-2x"></i>
-                                <p><span style="color:#fff;">Up to 99.99% Secure calls</span></p>
+                                <p><span style="color:#000;">Up to 99.99% Secure calls</span></p>
                             </li>
                             <li>
                                 <i class="fa-li fa fa-check-circle fa-2x"></i>
-                                <p><span style="color:#fff;">24*7 Personalized Support</span></p>
+                                <p><span style="color:#000;">24*7 Personalized Support</span></p>
                             </li>
                             <li>
                                 <i class="fa-li fa fa-check-circle fa-2x"></i>
                             </li>
                             <li>
                                 <i class="fa-li fa fa-check-circle fa-2x"></i>
-                                <p><span style="color:#fff;">2 Days* Free, <span style="color:#fff;">Trading Tips</span></span></p>
+                                <p style="margin-top: 5px padding:5px"><span style="color:#000;">2 Days* Free, <span style="color:#000;">Trading Tips</span></span></p>
                             </li>
                             <li>
                                 <i class="fa-li fa fa-check-circle fa-2x"></i>
@@ -232,13 +228,13 @@
                             </li>
                             <li>
                                 <i class="fa-li fa fa-check-circle fa-2x"></i>
-                                <p><span style="color:#fff;">Fill The Form &amp; Join Our Services,</span><span style="color:#fff;">Its Free!</span></p>
+                                <p><span style="color:#000;">Fill The Form &amp; Join Our Services,</span><span style="color:#000;">Its Free!</span></p>
                             </li>
                         </ul>
                     </div>
                     <div class="banner-right col-md-4 col-sm-6 col-lg-push-1 jw-animate-gen animated fadeInRight" data-gen-offset="90%" data-gen="fadeInRight">
 
-                        <h2>2 Days Free Trial</h2> 
+                        <h2 style="padding-top: 20px">2 Days Free Trial</h2> 
 
                         {!! Form::model($freeTrial, ['route' => ['free-trial'],'class'=>'form-inline findus','id'=>'contact-form']) !!}
          
@@ -253,16 +249,19 @@
                            
                             <input value="{{ old('city') }}"  type="text" placeholder="City" name="city" required="">
                              <span class="label label-danger">{{ $errors->first('city', ':message') }}</span>
-                            <input type="submit" class="submit" value="Start My Free Trial Now!">
+                            <input type="submit" class="submit btn btn-success" value="Start My Free Trial Now!" style="background: #000;color:#fff">
 
                        {!! Form::close()!!}
 
-                    </div>
 
+
+                    </div>
 
                 </div>
             </div>
         </div>
     </div>
+    
+                    <br> <br>
 </section>
 @stop

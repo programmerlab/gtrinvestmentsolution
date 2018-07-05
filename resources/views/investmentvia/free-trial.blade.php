@@ -15,6 +15,7 @@
 
 <!--SERVICE SECTION-->
 <section id="contact" class="padding">
+">
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 contact_address heading_space wow fadeInLeft animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInLeft;">
