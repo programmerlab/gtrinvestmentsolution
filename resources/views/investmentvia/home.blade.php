@@ -1065,7 +1065,9 @@ Stock Cash BTST Tips</h5>
 
 
 
-    <section class="flat-row v6">
+
+
+    <section class="flat-row v6" id="tracksheet">
 
         <div class="container">
 
@@ -1075,8 +1077,9 @@ Stock Cash BTST Tips</h5>
 
                     <div class="title-section text-center">
 
-                        <h1 class="title">Latest News</h1>
-
+                        <h1 class="title">Track Sheet</h1>
+                         <p class="track-para">Commodity Trading, Swing Trading, Future Trading and Option Trading in Stock,
+Commodity &amp; Bullion Market.</p>
                     </div>         
 
                 </div>
@@ -1093,7 +1096,7 @@ Stock Cash BTST Tips</h5>
 
                             <div class="featured-post">
 
-                                <a href="services-details.html"> <img src="images/g1.jpg" alt="image"></a>
+                                <a href="#"> <img src="images/g1.jpg" alt="image"></a>
 
                             </div><!-- /.feature-post -->
 
@@ -1101,7 +1104,7 @@ Stock Cash BTST Tips</h5>
 
                                 <span class="category">Advisory Plan</span>
 
-                                <h2 class="title-post"><a href="services-details.html">Colombia Gets a Business Makeover</a></h2>
+                                <h2 class="title-post"><a href="#tracksheet">Track Sheet</a></h2>
 
                                 <div class="meta-data style2 clearfix">
 
@@ -1109,7 +1112,7 @@ Stock Cash BTST Tips</h5>
 
                                         <li class="day-time">
 
-                                            <span>26 Dec 2017</span>
+                                            <span>{{ date('Y')}}</span>
 
                                         </li>
 
@@ -1128,32 +1131,53 @@ Stock Cash BTST Tips</h5>
                         <div class="entry-border clearfix">
 
                             <div class="featured-post">
+                            
+                                <div class="tracksheet">
+    <div class="row" style="overflow-y:scroll">
+         
+        <div class="col-sm-7 track-content" style="height: 340px; padding-left: 25px;padding-top: 10px">
+             
+            <div class="tracksheet-block" >
+                 
+                        @if($trackSheet->count())
+                    @foreach($trackSheet as $key=> $result)
+                    <?php ++$key; $html = ' <p><img src="'.asset('storage/assets/images/excel.png').'" >'.ucfirst($result->title).'</p>';
 
-                                <a href="services-details.html"> <img src="images/g2.jpg" alt="image"></a>
+                     ?>
+                     <div class="block1 wow fadeInUp" data-wow-delay="500ms">
+                       <a href="{{url('storage/files/'.$result->files)}}" target="_blank"> {!!$html!!} </a>
+                     </div>
+                    @endforeach   
+
+                @else
+                 <div class="block1 wow fadeInUp" data-wow-delay="500ms">
+                    <p><img src="{{ asset('storage/assets/images/excel.png')}}"> HNI </p>
+                        <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Stock Cash</p>
+                        <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Option</p>
+                        <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Stock Future</p>
+                                                                                                                            
+                </div>
+                 <div class="block1 wow fadeInUp" data-wow-delay="500ms">
+                    <p><img src="{{ asset('storage/assets/images/excel.png')}}"> HNI </p>
+                        <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Stock Cash</p>
+                        <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Option</p>
+                        <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Stock Future</p>
+                                                                                                                            
+                </div>
+               @endif
+                       
+
+                               
+            </div>
+           <!--  <div class="main-btn">
+                <a href="#">View All</a>
+            </div> -->
+        </div>
+    </div>
+</div>
 
                             </div><!-- /.feature-post -->
-
-                            <div class="content-post">
-
-                                <span class="category">Finance & Accounting</span>
-
-                                <h2 class="title-post"><a href="services-details.html">The Recurring Debate Over Concurrent Delays</a></h2>
-
-                                <div class="meta-data style2 clearfix">
-
-                                    <ul class="meta-post clearfix">
-
-                                        <li class="day-time">
-
-                                            <span>20 Aug 2017</span>
-
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-
-                            </div><!-- /.contetn-post -->
+ 
 
                         </div><!-- /.entry-border -->
 
@@ -1173,7 +1197,7 @@ Stock Cash BTST Tips</h5>
 
                                 <span class="category">Business Plans</span>
 
-                                <h2 class="title-post"><a href="services-details.html">Counting the Cost of Delay & Disruption</a></h2>
+                                <h2 class="title-post"><a href="#tracksheet">Track Sheet</a></h2>
 
                                 <div class="meta-data style2 clearfix">
 
@@ -1181,7 +1205,7 @@ Stock Cash BTST Tips</h5>
 
                                         <li class="day-time">
 
-                                            <span>12 JUN 2017</span>
+                                            <span>{{date('d M Y')}}</span>
 
                                         </li>
 
