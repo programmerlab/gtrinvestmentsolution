@@ -86,8 +86,8 @@
 
 
 
-                                style="z-index: 16; white-space: nowrap; color:#fff">Favourable Business Practices Sustainable Profits
-
+                                style="z-index: 16; white-space: nowrap; color:#fff">
+                                <span style="font-size: 40px !important; ">Favourable Business Practices Sustainable Profits. </span>
                             </div>
 
 
@@ -136,7 +136,7 @@
 
 
 
-                                style="z-index: 17; white-space: nowrap;text-transform:left;">KEEPING YOUR WEB PRESENCE
+                                style="z-index: 17; white-space: nowrap;text-transform:left;"> 
 
                             </div>
 
@@ -188,7 +188,7 @@
 
 
 
-                                style="z-index: 17; white-space: normal;">With over 20 years of experience we’ll ensure<br>you always get the best guidance!
+                                style="z-index: 17; white-space: normal; color:#fff">With over 10 years of experience we’ll ensure<br>you always get the best guidance!
 
                             </div>
 
@@ -299,7 +299,8 @@
 
 
 
-                                style="z-index: 16; white-space: nowrap;">Favourable Business Practices Sustainable Profits.
+                                style="z-index: 16; white-space: nowrap; ">
+                                <span style="font-size: 40px !important; ">Share is the ownership of the company divided</span>
                             </div>
 
 
@@ -348,7 +349,7 @@
 
 
 
-                                style="z-index: 17; white-space: nowrap;text-transform:left;">KEEPING YOUR WEB PRESENCE
+                                style="z-index: 17; white-space: nowrap;text-transform:left;">
 
                             </div>
 
@@ -396,11 +397,9 @@
 
                                 data-paddingbottom="[0,0,0,0]"
 
-                                data-paddingleft="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]" 
 
-
-
-                                style="z-index: 17; white-space: normal;">With over 20 years of experience we’ll ensure<br>you always get the best guidance!
+                                style="z-index: 17; white-space: normal;">With over 10 years of experience we’ll ensure<br>you always get the best guidance!
 
                             </div>
 
@@ -516,7 +515,7 @@
 
                             <h5  class="box-title">MCX GOLD OPTION TIPS</h5>  
 
-                            <p>Big opportunity for retail trades who wish to trades in GOLD commodity</p> 
+                            <p>Big opportunity for retail trades who wish to trades in GOLD <br>commodity</p> 
 
                         </div>
 
@@ -543,7 +542,7 @@
                             <h5  class="box-title">Nifty Option Tips</h5>  
 
                             <p>Nifty Option Tips
-For starters with very less capital -- Anyone who wants to start a new service.</p> 
+For starters with very less capital.Anyone who wants to start a new service.</p> 
 
                         </div>
 
@@ -622,7 +621,7 @@ Stock Cash BTST Tips</h5>
 
                             <h5  class="box-title">Stock Option Platinum Tips</h5>  
 
-                            <p>In this pack we provide calls in Stock Option segment for traders</p> 
+                            <p>In this pack we provide calls in <br>Stock Option segment for <br>traders</p> 
 
                         </div>
 
@@ -648,7 +647,7 @@ Stock Cash BTST Tips</h5>
 
                             <h5  class="box-title">Stock Future Platinum Tips</h5>  
 
-                            <p>In this pack we provide calls in Stock Future segment for traders</p> 
+                            <p>In this pack we provide calls in Stock Future  for traders and dedicated team support</p> 
 
                         </div>
 
@@ -674,7 +673,8 @@ Stock Cash BTST Tips</h5>
 
                     <div class="title-section style2 left">
 
-                        <h1 class="title">Services</h1>
+                        <h1 class="title">What We Do.
+</h1>
 
                         <div class="sub-title">
 
@@ -706,33 +706,15 @@ Stock Cash BTST Tips</h5>
 
                 <div class="imagebox-image"> 
 
-                    <a href="single-post.html"><img src="images/s1.jpg" alt="image"></a> 
+                    <a href="#"><img src="images/s1.jpg" alt="image"></a> 
 
                 </div> 
 
                 <div class="imagebox-content">
 
-                 <h5 class="imagebox-title"><a href="single-post.html">Financial Consulting</a></h5>
+                 <h5 class="imagebox-title"><a href="#">WHO WE ARE ?</a></h5>
 
-                  <p class="imagebox-category">Businiess</p>
-
-                </div>
-
-            </div>
-
-            <div class="imagebox">
-
-                <div class="imagebox-image">
-
-                    <a href="single-post.html"><img src="images/s2.jpg" alt="image"></a>
-
-                </div>
-
-                <div class="imagebox-content">
-
-                    <h5 class="imagebox-title"><a href="single-post.html">Financial Consulting</a></h5>
-
-                    <p class="imagebox-category">Businiess</p>
+                  <p class="imagebox-category">We are a team that supports the accumulation of your wealth through different sources. Trust is what we offer you to be with us</p>
 
                 </div>
 
@@ -742,15 +724,16 @@ Stock Cash BTST Tips</h5>
 
                 <div class="imagebox-image">
 
-                    <a href="single-post.html"><img src="images/s3.jpg" alt="image"></a>
+                    <a href="#"><img src="images/s2.jpg" alt="image"></a>
 
                 </div>
 
                 <div class="imagebox-content">
 
-                    <h5 class="imagebox-title"><a href="single-post.html">Financial Consulting</a></h5>
+                    <h5 class="imagebox-title"><a href="#">WHAT WE CARE ?
+</a></h5>
 
-                    <p class="imagebox-category">Businiess</p>
+                    <p class="imagebox-category">Customer needs and satisfaction are the main concerns of Research Infotech . Our tips and services are the indeed portrayal of our work.</p>
 
                 </div>
 
@@ -760,15 +743,16 @@ Stock Cash BTST Tips</h5>
 
                 <div class="imagebox-image">
 
-                    <a href="single-post.html"><img src="images/s4.jpg" alt="image"></a>
+                    <a href="#"><img src="images/s3.jpg" alt="image"></a>
 
                 </div>
 
                 <div class="imagebox-content">
 
-                    <h5 class="imagebox-title"><a href="single-post.html">Financial Consulting</a></h5>
+                    <h5 class="imagebox-title"><a href="#">Learn How To Trade
+</a></h5>
 
-                    <p class="imagebox-category">Businiess</p>
+                    <p class="imagebox-category">You don’t have to work on BSE/NSE to make money like BSE. Learn more how to trade with Research Infotech</p>
 
                 </div>
 
@@ -778,15 +762,34 @@ Stock Cash BTST Tips</h5>
 
                 <div class="imagebox-image">
 
-                    <a href="single-post.html"><img src="images/s5.jpg" alt="image"></a>
+                    <a href="#"><img src="images/s4.jpg" alt="image"></a>
 
                 </div>
 
                 <div class="imagebox-content">
 
-                    <h5 class="imagebox-title"><a href="single-post.html">Financial Consulting</a></h5>
+                    <h5 class="imagebox-title"><a href="#">Quick Technical Support</a></h5>
 
-                    <p class="imagebox-category">Businiess</p>
+                    <p class="imagebox-category">You will get the quick solutions for your every problem pertaining to the Services. Call us or just click Priority Support.</p>
+
+                </div>
+
+            </div>
+
+            <div class="imagebox">
+
+                <div class="imagebox-image">
+
+                    <a href="#"><img src="images/s5.jpg" alt="image"></a>
+
+                </div>
+
+                <div class="imagebox-content">
+
+                    <h5 class="imagebox-title">
+                        <a href="#">Customer/ON-CALL Support</a></h5>
+
+                    <p class="imagebox-category">In this service we provide limited calls in GOLD/SILVER with a high level of accuracy.You can also avail Free Tips to test our accuracy.</p>
 
                 </div>
 
@@ -1184,7 +1187,7 @@ Commodity &amp; Bullion Market.</p>
 
                             <div class="featured-post">
 
-                                <a href="services-details.html"> <img src="images/g3.jpg" alt="image"></a>
+                                <a href="#"> <img src="images/g3.jpg" alt="image"></a>
 
                             </div><!-- /.feature-post -->
 
@@ -1234,16 +1237,19 @@ Commodity &amp; Bullion Market.</p>
 
                     <div class="flat-client" data-item="5" data-nav="false" data-dots="false" data-auto="false">
 
-                        <div class="client"><img src="images/1.png" alt="image"></div>
+                        <div class="client">
+                         <a href="https://www.cnbc.com" target="_blank">  
+                            <img src="images/market/1.jpg" alt="image">
+                        </a>
+                        </div>
 
-                        <div class="client"><img src="images/2.png" alt="image"></div>
+                        <div class="client"> <a href="https://www.investing.com" target="_blank">  <img src="images/market/2.jpg" alt="image"> </a> </div>
 
-                        <div class="client"><img src="images/3.png" alt="image"></div>
+                        <div class="client"><a href="https://www.marketwatch.com" target="_blank"> <img src="images/market/3.jpg" alt="image"> </a> </div>
 
-                        <div class="client"><img src="images/4.png" alt="image"></div>
+                        <div class="client"><a href="https://www.mcxcontrol.com" target="_blank">  <img src="images/market/4.jpg" alt="image"></a></div>
 
-                        <div class="client"><img src="images/5.png" alt="image"></div>
-
+                        <div class="client"><a href="https://www.moneycontrol.com" target="_blank"><img src="images/market/5.jpg" alt="image"></div></div> 
                     </div><!-- /.flat-client -->      
 
                 </div>

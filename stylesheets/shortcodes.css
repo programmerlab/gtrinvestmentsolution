@@ -816,7 +816,9 @@
 
 .iconbox.style3 .box-header .box-icon i {
     font-size: 80px;
+    margin: 22px !important;
 }
+ 
 
 .iconbox.style3 .box-content .box-title {
     margin-bottom: 9px;

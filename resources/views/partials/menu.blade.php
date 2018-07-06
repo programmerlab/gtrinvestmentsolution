@@ -67,7 +67,7 @@
 
                             <div id="logo" class="logo">
 
-                                <a href="index.html" rel="home">
+                                <a href="/" rel="home">
 
                                     <img src="{{url('images/logo1.png')}}" alt="image">
 
@@ -319,4 +319,10 @@
    border: 1px solid black;
    padding: 10px;
 }
-    </style>  
+ul.list-inline li{
+    display: inline;
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    </style>
