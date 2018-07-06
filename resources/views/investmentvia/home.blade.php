@@ -1131,24 +1131,24 @@ Commodity &amp; Bullion Market.</p>
                             <div class="featured-post">
                             
                                 <div class="tracksheet">
-    <div class="row" style="overflow-y:scroll">
+    <div class="row" style="">
          
-        <div class="col-sm-7 track-content" style="height: 340px; padding-left: 25px;padding-top: 10px">
+        <div class="col-sm-12 track-content" style="height: 340px; padding-left: 25px;padding-top: 10px">
              
             <div class="tracksheet-block" >
                  
                         @if($trackSheet->count())
                     @foreach($trackSheet as $key=> $result)
-                    <?php ++$key; $html = ' <p><img src="'.asset('storage/assets/images/excel.png').'" >'.ucfirst($result->title).'</p>';
+                    <?php ++$key; $html = ' <p><img src="'.asset('storage/assets/images/excel.png').'" width="27px;" style=" margin-right:5px;">'.ucfirst($result->title).'</p>';
 
                      ?>
-                     <div class="block1 wow fadeInUp" data-wow-delay="500ms">
-                       <a href="{{url('storage/files/'.$result->files)}}" target="_blank"> {!!$html!!} </a>
+                     <div class="block1 wow fadeInUp col-md-6" data-wow-delay="500ms" style="float: left; padding: 8px; 0px ">
+                       <a href="{{url('storage/files/'.$result->files)}}" target="_blank" > {!!$html!!} </a>
                      </div>
                     @endforeach   
 
                 @else
-                 <div class="block1 wow fadeInUp" data-wow-delay="500ms">
+                 <div class="block1 wow fadeInUp" data-wow-delay="500ms" >
                     <p><img src="{{ asset('storage/assets/images/excel.png')}}"> HNI </p>
                         <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Stock Cash</p>
                         <p><img src="{{ asset('storage/assets/images/excel.png')}}"> Option</p>
