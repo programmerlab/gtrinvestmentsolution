@@ -1135,7 +1135,7 @@ Commodity &amp; Bullion Market.</p>
          
         <div class="col-sm-12 track-content" style="height: 340px; padding-left: 25px;padding-top: 10px">
              
-            <div class="tracksheet-block" >
+            <div class="tracksheet-block" style="padding-top: 20px;" >
                  
                         @if($trackSheet->count())
                     @foreach($trackSheet as $key=> $result)
